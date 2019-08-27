@@ -36,7 +36,7 @@ void loop() {
   BackSensor = distance;
 
 
-  if (distance <=5){
+  if (distance <=8){
     tmrpcm.setVolume(6);
     tmrpcm.play("1.wav");
     delay(5000);
